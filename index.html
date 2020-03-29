@@ -46,12 +46,16 @@
                 主題
               </a>
               <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <a class="dropdown-item" href="#">1</a>
-                <a class="dropdown-item" href="#">2</a>
-                <a class="dropdown-item" href="#">3</a>
-                <a class="dropdown-item" href="#">4</a>
-                <a class="dropdown-item" href="#">5</a>
-              </div>
+                            <a class="dropdown-item" href="#">政治</a>
+                            <a class="dropdown-item" href="#">人文</a>
+                            <a class="dropdown-item" href="#">經濟</a>
+                            <a class="dropdown-item" href="#">科技</a>
+                            <a class="dropdown-item" href="#">環境</a>
+                            <a class="dropdown-item" href="#">軍事</a>
+                            <a class="dropdown-item" href="#">藝術</a>
+                            <a class="dropdown-item" href="#">體育</a>
+                            <a class="dropdown-item" href="#">推書</a>
+                        </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -75,11 +79,14 @@
       </div>
     </div>
   </header>
-
-  <section class="container-fluid  masthead">
-    <div class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
+    
+<section class="container-fluid  masthead">
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
                 <div class="card mb-2">
                   <div class="row no-gutters">
                     <div class="col-md-8">
@@ -94,8 +101,8 @@
                   </div>
                 </div>
             </div>
-            <div class="carousel-item">
-                <div class="card mb-2">
+    <div class="carousel-item">
+     <div class="card mb-2">
                   <div class="row no-gutters">
                     <div class="col-md-8">
                       <div class="card-body">
@@ -108,18 +115,19 @@
                     </div>
                   </div>
                 </div>
-            </div>
-        </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Next</span>
-        </a>
     </div>
-  </section>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+    </section>    
+    
   
   <!-- Main Content -->
   <div class="container">
@@ -147,40 +155,34 @@
 
   <!-- Footer -->
   <footer>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <ul class="list-inline text-center">
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 mx-auto">
+                    <ul class="list-inline text-center">
+
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/2040school/" target="_blank" >
+                                <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
+                            </a>
+                        </li>
+                                        <li class="list-inline-item">
+                            <a href="https://www.instagram.com/2040_school/" target="_blank" >
+                                <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
                 </span>
-              </a>
-            </li>
-          </ul>
-          <p class="copyright text-muted">Copyright &copy; 2040School 2020</p>
+                            </a>
+                        </li>
+
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy;2020， 2040 School </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </footer>
+    </footer>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
