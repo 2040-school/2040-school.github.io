@@ -54,7 +54,8 @@ a {
   font-family: 'Noto Sans TC', sans-serif !important;
 }
 p,
-small {
+small,
+#text {
   font-family: 'Noto Serif TC', serif;
 }
 nav * {
